@@ -30,13 +30,24 @@ ollama run career-architect
 ---
 
 ## 🗂️ Project Structure
-career-architect-slm/ │
-                      ├── train_model.py # Full training + merge pipeline (run on Kaggle) 
-                      ├── test_model.py # Adapter validation script (run on Kaggle) 
-                      ├── training_data.jsonl # Custom career/ML training dataset 
-                      ├── adapter_config.json # LoRA configuration 
-                      ├── Modelfile # Ollama deployment config 
-                      └── README.md
+career-architect-slm/
+│
+├── train_model.py
+│     └── Full training + merge pipeline (run on Kaggle)
+│
+├── test_model.py
+│     └── Adapter validation script (run on Kaggle)
+│
+├── training_data.jsonl
+│     └── Custom career/ML training dataset
+│
+├── adapter_config.json
+│     └── LoRA configuration
+│
+├── Modelfile
+│     └── Ollama deployment config
+│
+└── README.md
 ---
 
 ## ⚙️ How This Was Built — Step by Step
