@@ -29,7 +29,9 @@ ollama run career-architect
 
 ---
 
-## 🗂️ Project Structure
+### Project Structure
+
+```text
 career-architect-slm/
 │
 ├── train_model.py
