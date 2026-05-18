@@ -50,11 +50,10 @@ career-architect-slm/
 │     └── Ollama deployment config
 │
 └── README.md
-
-
+```
 ---
 
-## ⚙️ How This Was Built — Step by Step
+### ⚙️ How This Was Built — Step by Step
 
 ### Why Kaggle?
 Training and testing were done entirely on **Kaggle** (free T4 GPU with 16GB VRAM)
